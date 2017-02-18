@@ -1,0 +1,26 @@
+
+#counter{
+  margin: 0px;
+}
+
+#countup{
+  margin-top: 15px;
+}
+
+.year-text{
+  color: #da3644;
+  text-align: right;
+  font-size: 2.5em;
+  line-height: 1em;
+  padding-right: 6px;
+  font-family: 'Lobster', cursive;
+}
+
+.date-text{
+  color: #676a72;
+  font-size: 1.3em;
+  line-height: 1em;
+  padding-top: 8px;
+  display: inline-block;
+  padding-left: 6px;
+}

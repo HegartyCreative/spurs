@@ -1,0 +1,59 @@
+
+.spacing{
+    margin: 0px;
+    padding-top: 20px;
+}
+
+p{
+    margin-top: 20px;
+    color: #8d8b8b;
+}
+
+.final{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #676a72;
+}
+
+h3{
+    text-align: center;
+    color: #676a72;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+p.stadium{
+    color: #676a72;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.final p{
+    margin: 0;
+}
+
+p.count{
+     font-family: 'Lobster', cursive;
+     text-align: center;
+     font-size: 2em;
+         color: #da3644;
+}
+
+p.count1{
+     font-family: 'Lobster', cursive;
+     text-align: center;
+     font-size: 2em;
+         color: #da3644;
+     margin: 0;
+}
+
+.red{
+     color: #676a72;
+    font-weight: bold;
+    font-size: 2em;
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Laugh at Spurs</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <base href="/">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script>
+        window.onload=function() {
+      // Month,Day,Year,Hour,Minute,Second
+      upTime('april,17,1961,21:00:00'); // ****** Change this line!
+    };
+    function upTime(countTo) {
+      now = new Date();
+      countTo = new Date(countTo);
+      difference = (now-countTo);
+      days=Math.floor(difference/(60*60*1000*24)*1);
+      years = Math.floor(days / 365);
+      if (years > 1){ days = days - (years * 365)}
+      hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
+      mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+      secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
+      document.getElementById('years').firstChild.nodeValue = years;
+      document.getElementById('days').firstChild.nodeValue = days;
+      document.getElementById('hours').firstChild.nodeValue = hours;
+      document.getElementById('minutes').firstChild.nodeValue = mins;
+      document.getElementById('seconds').firstChild.nodeValue = secs;
+
+      clearTimeout(upTime.to);
+      upTime.to=setTimeout(function(){ upTime(countTo); },1000);
+    }
+  </script>
+
+</head>
+<body>
+    <app-root>Loading...</app-root>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</body>
+</html>

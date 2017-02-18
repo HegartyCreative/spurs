@@ -1,0 +1,25 @@
+  <div class="col-sm-12">
+    <h2 class="text-center sub-title">{{title}}</h2>
+  </div>
+  
+  <div class="col-sm-5">
+      <ul class="list-group users-list">
+          <li class="list-group-item" *ngFor="let user of users" (click)="selectUser(user)" [class.active]="user === activeUser">
+              <span class="name">{{user.name}}</span>
+              <span class="title">{{user.title}}</span>
+              </li>
+      </ul>
+  </div>
+
+  <div class="col-sm-7 right-box">
+      <div *ngIf="activeUser">
+          <img class="img-rounded" src={{activeUser.image}}/>
+          <span class="quote">{{activeUser.quote}}</span>
+          <span class="date">{{activeUser.date}}</span>
+      </div>
+
+      <div *ngIf="!activeUser" class="quote-box">
+          <span class="glyphicon glyphicon-hand-left"></span>
+          <h2>Please choose a quote</h2>
+      </div>
+  </div>

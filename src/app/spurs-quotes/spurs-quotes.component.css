@@ -1,0 +1,70 @@
+
+/*Quote names*/
+
+span.quote,
+span.date{
+    display: block;
+}
+
+.name{
+    color: #da3644;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title{
+    color: #676a72;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+    background-color: #e7e5e5;
+    border: 2px solid #ffffff;
+}
+
+.list-group-item.visited {
+    border: 2px solid #ffffff;
+}
+
+.list-group-item{
+    border: 2px solid #ffffff;
+}
+
+.list-group-item:hover{
+    background-color: #e7e5e5;
+}
+
+/*Quote box*/
+
+.right-box{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.quote-box{
+    height: 287px;
+    background-color: #e7e5e5;
+    color: #8d8b8b;
+}
+
+.glyphicon{
+    font-size: 100px;
+    margin-top: 30px;
+    color: #b9b6b6;
+}
+
+.quote{
+    color: #da3644;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 1.25em;
+    line-height: 1.35em;
+    margin-bottom: 10px;
+}
+
+.date{
+    color: #676a72;
+}
+
+
+/*Quote box*/
