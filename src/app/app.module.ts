@@ -6,20 +6,18 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { LeagueCountdownComponent } from './league-countdown/league-countdown.component';
 import { SpursQuotesComponent } from './spurs-quotes/spurs-quotes.component';
-import { TrophyCountdownComponent } from './trophy-countdown/trophy-countdown.component';
 import { HonoursComponent } from './honours/honours.component';
-import { LeagueComponent } from './league/league.component';
+import { NorthLondonComponent } from './north-london/north-london.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LeagueCountdownComponent,
     SpursQuotesComponent,
-    TrophyCountdownComponent,
     HonoursComponent,
-    LeagueComponent,
-    TrophyCountdownComponent,
-    TrophyCountdownComponent
+    NorthLondonComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

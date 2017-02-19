@@ -6,6 +6,10 @@ span.date{
     display: block;
 }
 
+img{
+    width: 17%;
+}
+
 .name{
     color: #da3644;
     font-weight: bold;
@@ -13,7 +17,7 @@ span.date{
 }
 
 .title{
-    color: #676a72;
+    color: #c9c7c7;
 }
 
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
@@ -27,6 +31,7 @@ span.date{
 
 .list-group-item{
     border: 2px solid #ffffff;
+    padding: 6px 5px;
 }
 
 .list-group-item:hover{
@@ -37,13 +42,14 @@ span.date{
 
 .right-box{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .quote-box{
-    height: 287px;
+    height: 275px;
     background-color: #e7e5e5;
     color: #8d8b8b;
+
 }
 
 .glyphicon{
@@ -56,14 +62,17 @@ span.date{
     color: #da3644;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: 30px;
-    font-size: 1.25em;
-    line-height: 1.35em;
+    margin-top: 20px;
+    font-size: 1.15em;
+    line-height: 1.37em;
     margin-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .date{
-    color: #676a72;
+    color: #adadad;
+    font-size: 1.1em;
 }
 
 
