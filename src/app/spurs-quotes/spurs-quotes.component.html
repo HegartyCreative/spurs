@@ -5,8 +5,7 @@
   <div class="col-sm-4">
       <ul class="list-group users-list">
           <li class="list-group-item" *ngFor="let user of users" (click)="selectUser(user)" [class.active]="user === activeUser">
-              <span class="name">{{user.name}}</span>&nbsp;
-              <span class="title">{{user.title}}</span>
+              <span class="name">{{user.name}}</span>
               </li>
       </ul>
   </div>
@@ -19,7 +18,7 @@
       </div>
 
       <div *ngIf="!activeUser" class="quote-box">
-          <span class="glyphicon glyphicon-hand-left"></span>
-          <h2>Please choose a quote</h2>
+          <img class="arrow" src="./../../assets/images/arrow.svg">
+          <h3>Please choose a quote</h3>
       </div>
   </div>

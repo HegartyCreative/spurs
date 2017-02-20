@@ -9,6 +9,7 @@ import { SpursQuotesComponent } from './spurs-quotes/spurs-quotes.component';
 import { HonoursComponent } from './honours/honours.component';
 import { NorthLondonComponent } from './north-london/north-london.component';
 import { FooterComponent } from './footer/footer.component';
+import { TwitterComponent } from './twitter/twitter.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FooterComponent } from './footer/footer.component';
     SpursQuotesComponent,
     HonoursComponent,
     NorthLondonComponent,
-    FooterComponent
+    FooterComponent,
+    TwitterComponent
   ],
   imports: [
     BrowserModule,

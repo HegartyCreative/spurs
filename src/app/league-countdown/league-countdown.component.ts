@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LeagueCountdownComponent implements OnInit {
 
-   title: string = "League countdown";
+   title: string = "The title drought";
     
 
   ngOnInit() {

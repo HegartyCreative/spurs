@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SpursQuotesComponent implements OnInit {
 
-  title: string = "My favourite quotes";
+  title: string = "The quotes";
 
  message = 'Welcome to my App!';
   users = [

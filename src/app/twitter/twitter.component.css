@@ -1,0 +1,9 @@
+a {
+    color: #da3644 !important;
+}
+
+a:visited,
+a:focus,
+a:hover{
+     color: #da3644;
+}

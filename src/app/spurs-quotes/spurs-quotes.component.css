@@ -7,17 +7,18 @@ span.date{
 }
 
 img{
-    width: 17%;
+    width: 13%;
 }
 
 .name{
     color: #da3644;
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 0.9em;
 }
 
 .title{
-    color: #c9c7c7;
+    color: #ADADAD;
 }
 
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
@@ -31,7 +32,7 @@ img{
 
 .list-group-item{
     border: 2px solid #ffffff;
-    padding: 6px 5px;
+    padding: 4px 5px;
 }
 
 .list-group-item:hover{
@@ -42,13 +43,13 @@ img{
 
 .right-box{
     text-align: center;
-    margin-top: 5px;
+    margin-top: 12px;
 }
 
 .quote-box{
-    height: 275px;
+    height: 240px;
     background-color: #e7e5e5;
-    color: #8d8b8b;
+    color: #ADADAD;
 
 }
 
@@ -63,16 +64,25 @@ img{
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 20px;
-    font-size: 1.15em;
+    font-size: 1.05em;
     line-height: 1.37em;
     margin-bottom: 10px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .date{
     color: #adadad;
     font-size: 1.1em;
+}
+
+.arrow{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+h3{
+    font-size: 1.2em;
 }
 
 

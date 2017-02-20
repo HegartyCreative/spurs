@@ -4,25 +4,32 @@
 }
 
 #countup{
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .year-text{
   color: #da3644;
-  text-align: right;
-  font-size: 5em;
-  padding-right: 6px;
-  font-family: 'Lobster', cursive;
+  text-align: left;
+  font-size: 4em;
+  font-weight: bold;
+  line-height: 1em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
 }
 
-.date-text{
+span{
   color: #adadad;
-  font-size: 1.3em;
-  line-height: 1em;
-  padding-top: 50px;
-  display: inline-block;
-  padding-left: 6px;
+  font-size: 1.4em;
+  text-align: left;
+  padding-left: 9px;
 }
+
+.col-sm-2{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 
 
 #years, 
@@ -32,4 +39,8 @@
 #seconds{
   margin: 0;
   padding: 0;
+}
+
+.hours{
+  margin-left: 17px;
 }
