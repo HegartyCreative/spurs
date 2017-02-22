@@ -1,7 +1,6 @@
 
 .spacing{
     margin: 0px;
-    padding-top: 20px;
 }
 
 p{
@@ -29,32 +28,10 @@ h3{
     margin-bottom: 25px;
 }
 
-.final img{
-    width: 90%;
-}
-
-
-p.count{
-     text-align: center;
-     font-size: 1.6em;
-    color: #da3644;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-p.count1{
-    font-weight: bold;
-     text-align: center;
-     font-size: 1.6em;
-     color: #da3644;
-     margin: 0;
-     padding: 0;
-    text-transform: uppercase;
-}
-
 p.cups{
     font-size: 0.9em;
-    margin-top: 15px;
+    margin-top: 5px;
+    padding-left: 10px;
     margin-bottom: 0;
     color: #adadad;
 }
@@ -64,6 +41,8 @@ p.cups{
 }
 
 .honours{
-    padding-bottom: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
 }
 

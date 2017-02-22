@@ -8,7 +8,7 @@
 }
 
 .year-text{
-  color: #da3644;
+  color: #55acee;
   text-align: left;
   font-size: 4em;
   font-weight: bold;
@@ -22,7 +22,7 @@ span{
   color: #adadad;
   font-size: 1.4em;
   text-align: left;
-  padding-left: 9px;
+  padding-left: 0px;
 }
 
 .col-sm-2{
@@ -42,5 +42,5 @@ span{
 }
 
 .hours{
-  margin-left: 17px;
+  margin-left: 25px;
 }

@@ -2,7 +2,7 @@
     <h2 class="text-center sub-title">{{title}}</h2>
   </div>
   
-  <div class="col-sm-4">
+  <div class="col-sm-4 left-box">
       <ul class="list-group users-list">
           <li class="list-group-item" *ngFor="let user of users" (click)="selectUser(user)" [class.active]="user === activeUser">
               <span class="name">{{user.name}}</span>

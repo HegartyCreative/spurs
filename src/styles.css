@@ -5,8 +5,8 @@ body{
     margin-top: 10px;
 }
 
-.container{
-    width: 80%;
+img{
+    max-width: 100%;
 }
 
 span{
@@ -14,13 +14,12 @@ span{
 }
 
 .sub-title{
-    background-color: #da3644;
+    background-color: #55acee;
     padding: 10px 0px;
     color: #ffffff;
-    font-weight: normal;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    font-weight: bold;
 }
 
 h2{
