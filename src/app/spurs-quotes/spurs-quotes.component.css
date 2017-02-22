@@ -88,4 +88,12 @@ h3{
 }
 
 
-/*Quote box*/
+@media screen and (max-width: 768px) {
+    h3 {
+        padding-top: 100px;
+    }
+
+    .name{
+    padding-left: 70px;
+    }
+}

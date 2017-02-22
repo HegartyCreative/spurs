@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HonoursComponent implements OnInit {
 
-  title: string = "The major trophy drought since 1991*";
+  title: string = "Major trophy drought since 1991*";
 
   constructor() { }
 

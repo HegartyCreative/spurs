@@ -44,3 +44,15 @@ span{
 .hours{
   margin-left: 25px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .hours {
+        margin-left: 0;
+    }
+
+    #countup,
+    .year-text{
+      text-align: center;
+    }
+}

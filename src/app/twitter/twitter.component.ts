@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TwitterComponent implements OnInit {
 
-     title: string = "The tweets";
+     title: string = "Tweets";
 
   constructor() { }
 
